@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	p{
+		font-family: "標楷體";
+	}
+</style>
+</head>
+
+<body>
+	<img src="Image/8.jpg" style="float: right" width="650px">
+	<form action="login.php" method="post">
+        <p><img src="Image/7.jpg" height="20px" style="float: left"> 請輸入你的帳號</p>
+        <input type="text" name="name" placeholder="你的帳號名稱" required/><br />
+        
+		<p><img src="Image/3.png" height="20px" style="float: left">請輸入你的名字</p>
+        <input type="text" name="Real_Name" placeholder="你的名字" maxlength="4" required/><br />
+        
+		<p><img src="Image/1.jpg" height="20px" style="float: left">請輸入你的手機</p>
+        <input type="text" name="Phone" placeholder="你的手機" required/><br />
+        
+        <p><img src="Image/5.jpg" height="20px" style="float: left">請輸入你的生日</p>
+        <input type="date" name="birthday" required/><br />
+        
+        <p><img src="Image/4.png" height="20px" style="float: left">請選擇性別</p>
+        <input type="radio" name="sex" value="male" required/>男
+        <input type="radio" name="sex" value="female" required/>女
+        
+        <p><img src="Image/2.png" height="20px" style="float: left">請輸入電子信箱</p>
+        <input type="text" name="mail" placeholder="你的信箱" required/><br />
+        
+        <p><img src="Image/6.jpg" height="20px" style="float: left">請輸入密碼</p>
+        <input type="password" name="Password" placeholder="你的密碼" required/><br />
+        <input type="submit" value="註冊" />
+    </form>
+</body>
+</html>

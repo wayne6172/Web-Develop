@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+	function Create(){
+		document.location.href="login.html";
+	}
+</script>
+
+</head>
+
+<body>
+	<form action="loginAccount.php" method="post">
+		<br>帳號：<input type="text" name="Account" required/>
+		<br><br>密碼：<input type="password" name="PassWord" required/>
+		
+		<br><br><input type="submit" value="登入"/>
+		<input type="reset" value="清除"/>
+		<input type="button" onClick="Create()" value="建立帳號"/>
+		<img src="Image/9.jpg" width="990px" style="padding-top: 15px"/>
+	</form>
+</body>
+</html>
