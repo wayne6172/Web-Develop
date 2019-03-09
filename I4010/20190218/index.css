@@ -1,0 +1,58 @@
+﻿body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    border: 3px solid red;
+}
+
+a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav table{
+    width: 100%;
+    text-align: center;
+}
+
+article {
+    border: 3px solid blue;
+}
+
+iframe{
+    border: none;
+    height: 700pt;
+    width: 100%;
+}
+
+footer{
+    border: 3px solid pink;
+    text-align: center;
+}
